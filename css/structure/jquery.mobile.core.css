@@ -289,6 +289,7 @@ div.ui-mobile-viewport {
 	width: 22px;
 	height: 22px;
 	line-height: 1;
+	margin: 0 .25em;
 	vertical-align: middle;
 	position: relative;
 	bottom: 2px;

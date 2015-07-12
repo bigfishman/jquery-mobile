@@ -23,7 +23,8 @@
 	border-style: solid;
 }
 
-.ui-controlgroup-horizontal .ui-checkboxradio-icon {
+.ui-controlgroup-horizontal .ui-checkboxradio-icon,
+.ui-controlgroup-horizontal .ui-checkboxradio-icon-space {
 	display: none;
 }
 
