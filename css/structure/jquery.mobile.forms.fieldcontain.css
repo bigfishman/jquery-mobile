@@ -7,7 +7,7 @@
 	padding: .8em 0;
 }
 .ui-field-contain > label ~ [class*="ui-"],
-.ui-field-contain .ui-controlgroup-controls {
+.ui-field-contain .ui-controlgroup {
 	margin: 0;
 }
 .ui-field-contain:last-child {
@@ -43,12 +43,17 @@
 		margin: 0 0 .4em;
 	}
 	.ui-field-contain > label ~ [class*="ui-"],
-	.ui-field-contain .ui-controlgroup-controls {
+	.ui-field-contain .ui-controlgroup {
 		float: left;
 		width: 78%;
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
+	}
+	.ui-popup .ui-field-contain > label ~ [class*="ui-"],
+	.ui-popup .ui-field-contain .ui-controlgroup {
+		float: none;
+		width: 100%;
 	}
 	.ui-field-contain > label ~ .ui-button-inline {
 		width: auto;
